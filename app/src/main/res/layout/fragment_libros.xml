@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7E90DE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#FF45559B">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:icon="@android:drawable/ic_menu_search"
+            android:iconifiedByDefault="false"
+            android:queryHint="Buscar..." />
+
+        <ImageButton
+            android:id="@+id/filtrarButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_filtrar" />
+
+        <ImageButton
+            android:id="@+id/categoriasButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/nofav"
+            android:tooltipText="Basados en tus categorías de interés"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/listaLibrosText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/robotomonobolditalic"
+        android:text="LISTA DE LIBROS"
+        android:textAlignment="center"
+        android:textColor="#1A3331"
+        android:textSize="20sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="14"
+            tools:listitem="@layout/grid_recycler" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

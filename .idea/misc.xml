@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/calendar.xml" value="0.3229166666666667" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/event.xml" value="0.24479166666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/filtar.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/full_star.xml" value="0.24479166666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/home.xml" value="0.24479166666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/horario.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/libros.xml" value="0.23541666666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/menu_book.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/no_filtrar.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/perfil.xml" value="0.22135416666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/shape.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/drawable/user.xml" value="0.3828125" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/click_prestamo.xml" value="0.25" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/dialogo_categoria_interes.xml" value="0.5" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/dialogo_filtra_libros.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/dialogo_modifica_correo.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_calendario_eventos.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_calendario_prestamos.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_cambiar_contrasenya.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_contacto.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_detalle_evento.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_detalle_libro.xml" value="0.25" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_estatico.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_fragmento_dinamico.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_fragmento_estatico.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_libros.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_perfil.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_prestamos.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_prestamos_tab.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_principal.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/fragment_reservas.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/grid_recycler.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler.xml" value="0.20520833333333333" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler_evento_calendario.xml" value="0.33" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler_eventos.xml" value="0.25" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler_prestamo_calendario.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler_prestamos.xml" value="0.5" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/linear_recycler_reservas.xml" value="0.5" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/layout/prestamos_tab.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/menu/menu_context_foto.xml" value="0.23958333333333334" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/menu/menu_overflow.xml" value="0.29791666666666666" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/menu/menu_overflow_search.xml" value="0.24205128205128204" />
+        <entry key="..\:/PROYECTO_FINAL/BiblioAppAndroid/app/src/main/res/menu/menufotoeditar.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

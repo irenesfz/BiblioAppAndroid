@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentPrincipal">
+
+    <fragment
+        android:id="@+id/fragmentPrincipal"
+        android:name="com.proyecto.biblioapp.fragments.FragmentPrincipal"
+        android:label="FragmentPrincipal">
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentDetalleEvento"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentCalendarioEventos"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.proyecto.biblioapp.fragments.FragmentLogin"
+        android:label="FragmentLogin">
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentPrestamos2"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentContacto"
+        android:name="com.proyecto.biblioapp.fragments.FragmentContacto"
+        android:label="FragmentContacto">
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentContacto_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLibros"
+        android:name="com.proyecto.biblioapp.fragments.FragmentLibros"
+        android:label="FragmentLibros">
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentDetalleLibro"
+            app:destination="@id/fragmentDetalleLibro" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentPrestamos2"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentLibros_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPerfil"
+        android:name="com.proyecto.biblioapp.fragments.FragmentPerfil"
+        android:label="FragmentPerfil">
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentCambiarContrasenya"
+            app:destination="@id/fragmentCambiarContrasenya" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentPrestamos2"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentPerfil_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetalleEvento"
+        android:name="com.proyecto.biblioapp.fragments.FragmentDetalleEvento"
+        android:label="fragment_detalle_evento"
+        tools:layout="@layout/fragment_detalle_evento">
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentPrestamos2"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentDetalleEvento_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetalleLibro"
+        android:name="com.proyecto.biblioapp.fragments.FragmentDetalleLibro"
+        android:label="fragment_detalle_libro"
+        tools:layout="@layout/fragment_detalle_libro">
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentDetalleLibro_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCalendarioEventos"
+        android:name="com.proyecto.biblioapp.fragments.FragmentCalendarioEventos"
+        android:label="fragment_calendario_eventos"
+        tools:layout="@layout/fragment_calendario_eventos">
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentDetalleEvento"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentReservas2"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentCalendarioEventos_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCambiarContrasenya"
+        android:name="com.proyecto.biblioapp.fragments.FragmentCambiarContrasenya"
+        android:label="FragmentCambiarContrasenya">
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentReservas2"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentCambiarContrasenya_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPrestamos"
+        android:name="com.proyecto.biblioapp.fragments.FragmentPrestamos"
+        android:label="fragment_prestamos"
+        tools:layout="@layout/fragment_prestamos">
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCalendarioEventos"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentDetalleEvento"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCalendarioEventos2"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCambiarContrasenya"
+            app:destination="@id/fragmentCambiarContrasenya" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentDetalleLibro"
+            app:destination="@id/fragmentDetalleLibro" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentContacto2"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentLogin2"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentLibros2"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCalendarioEventos3"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCambiarContrasenya2"
+            app:destination="@id/fragmentCambiarContrasenya" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentDetalleLibro2"
+            app:destination="@id/fragmentDetalleLibro" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentLibros3"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+        <action
+            android:id="@+id/action_fragmentPrestamos_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentReservas"
+        android:name="com.proyecto.biblioapp.fragments.FragmentReservas"
+        android:label="fragment_reservas"
+        tools:layout="@layout/fragment_reservas" >
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentCalendarioEventos"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentDetalleEvento"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentDetalleLibro"
+            app:destination="@id/fragmentDetalleLibro" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentLibros2"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentDetalleEvento2"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentCambiarContrasenya"
+            app:destination="@id/fragmentCambiarContrasenya" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentLibros3"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentCalendarioPrestamos"
+            app:destination="@id/fragmentCalendarioPrestamos" />
+        <action
+            android:id="@+id/action_fragmentReservas_to_fragmentLogin2"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCalendarioPrestamos"
+        android:name="com.proyecto.biblioapp.fragments.FragmentCalendarioPrestamos"
+        android:label="fragment_calendario_prestamos"
+        tools:layout="@layout/fragment_calendario_prestamos" >
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentCalendarioEventos"
+            app:destination="@id/fragmentCalendarioEventos" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentDetalleEvento"
+            app:destination="@id/fragmentDetalleEvento" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentPrincipal"
+            app:destination="@id/fragmentPrincipal" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentDetalleLibro"
+            app:destination="@id/fragmentDetalleLibro" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentContacto"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentContacto2"
+            app:destination="@id/fragmentContacto" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentPrestamos"
+            app:destination="@id/fragmentPrestamos" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentLibros"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentLibros2"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentLibros3"
+            app:destination="@id/fragmentLibros" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentPerfil"
+            app:destination="@id/fragmentPerfil" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentCambiarContrasenya"
+            app:destination="@id/fragmentCambiarContrasenya" />
+        <action
+            android:id="@+id/action_fragmentCalendarioPrestamos_to_fragmentReservas"
+            app:destination="@id/fragmentReservas" />
+    </fragment>
+
+</navigation>

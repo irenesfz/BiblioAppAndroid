@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ED9595"
+    tools:context=".fragments.FragmentCalendarioEventos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/calendario"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <CalendarView
+        android:id="@+id/Calendario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minDate="01/01/2022" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:itemCount="14"
+        tools:listitem="@layout/linear_recycler_evento_calendario" />
+</LinearLayout>

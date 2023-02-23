@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BiblioApp</string>
+    <string name="bienvenida">BIENVENID@ A LA APP DE LA BIBLIOTECA JIJI</string>
+    <string name="introducir_datos">Introduzca los datos para iniciar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autores">Autores</string>
+    <string name="titulo">Titulo</string>
+    <string name="isbn">ISBN</string>
+    <string name="foto_de_la_portada">Foto de la portada</string>
+    <string name="fecha">Fecha</string>
+    <string name="descripcion">Descripción</string>
+    <string name="info">Información de contacto</string>
+    <string name="llamar">LLAMAR</string>
+    <string name="mail">ENVIAR CORREO</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="contactar">Contactar con la biblioteca</string>
+    <string name="borrar_foto">Borrar Foto</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="abrir_galeria">Abrir Galeria</string>
+    <string name="hacer_foto">Hacer Foto</string>
+    <string name="boton_estrella">botón para indicar interés en un evento</string>
+    <string name="tablon_eventos">TABLÓN DE EVENTOS</string>
+    <string name="fecha_publicacion">Fecha de publicación:</string>
+    <string name="fecha_del_evento">Fecha del evento:</string>
+    <string name="descripcion_calendario_eventos">Botón para ver los eventos</string>
+    <string name="calendario">CALENDARIO DE EVENTOS</string>
+    <string name="create_notification">Crear notificación</string>
+    <string name="basic_channel_name">Notificación Básica</string>
+    <string name="basic_channel_description">Canal para notificaciones sencillas</string>
+    <string name="basic_channel_id">basic_channel</string>
+</resources>

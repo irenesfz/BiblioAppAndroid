@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B50C86EF"
+    tools:context=".fragments.FragmentCalendarioPrestamos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="CALENDARIO DE PRÉSTAMOS"
+        android:textColor="@color/black"
+        android:fontFamily="@font/robotomonobold"
+        android:textSize="26sp" />
+
+    <CalendarView
+        android:id="@+id/Calendario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minDate="01/01/2022" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:itemCount="14"
+        tools:listitem="@layout/linear_recycler_prestamo_calendario" />
+</LinearLayout>

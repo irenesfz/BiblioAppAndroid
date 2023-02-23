@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentEstatico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172148"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/inicio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/event" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Eventos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/buscar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_book" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Libros" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearSocio"
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/login"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Socio" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botonMisLibros"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/prestamos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:layout_marginTop="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/libros" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Préstamos" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/botonMisReservas"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="2dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/reservas"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:layout_marginTop="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/full_star" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Reservas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearPerfil"
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/perfilSocio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/perfil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Perfil" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cerrarSesion"
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/salir"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/exit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Salir" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearInfo"
+        android:layout_width="65dp"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Info" />
+    </LinearLayout>
+
+</LinearLayout>
