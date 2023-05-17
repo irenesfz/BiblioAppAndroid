@@ -19,12 +19,12 @@ Si pulsa un evento se abrirá una ventana desde la cual, podrá la descripción 
   <tr>
    <td><p style="text-align: right">
 
-<img src="images/image2.jpg" height="500" width="500" min-width=500 alt="alt_text" title="image_tooltip">
+<img src="images/image2.jpg" height="500" width="" min-width=500 alt="alt_text" title="image_tooltip">
 </p>
 
    </td>
    <td>
-<img src="images/image3.jpg" height="500" width="500" alt="alt_text" title="image_tooltip">
+<img src="images/image3.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
