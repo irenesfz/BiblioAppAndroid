@@ -2,9 +2,15 @@
 
 El siguiente manual es el de la aplicación de móvil. Nada más iniciarla, le saldrá el tablón de eventos con todos los eventos hechos y por hacer en la biblioteca.
 
+<table>
+  <tr>
+   <td><p style="text-align: right">
 
-![alt_text](images/image1.jpg "image_tooltip")
-
+<img src="images/image2.jpg" width="" alt="alt_text" height="500" title="image_tooltip" >
+</p>
+</td>
+ </tr>
+</table>
 
 Si pulsa un evento se abrirá una ventana desde la cual, podrá la descripción del evento con más detalle.
 
@@ -13,12 +19,12 @@ Si pulsa un evento se abrirá una ventana desde la cual, podrá la descripción 
   <tr>
    <td><p style="text-align: right">
 
-<img src="images/image2.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image2.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 </p>
 
    </td>
    <td>
-<img src="images/image3.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image3.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -31,15 +37,15 @@ En la parte superior tiene un botón para abrir el calendario y mostrarle los ev
 <table>
   <tr>
    <td>
-<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image4.png" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image5.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image5.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image6.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image6.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -53,12 +59,12 @@ A continuación pasaremos al apartado Libros del menú que tenemos en la parte i
   <tr>
    <td><p style="text-align: right">
 
-<img src="images/image7.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image7.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 </p>
 
    </td>
    <td>
-<img src="images/image8.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image8.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -71,15 +77,15 @@ También podrá buscar cualquier libro desde la barra de búsqueda situada en la
 <table>
   <tr>
    <td>
-<img src="images/image9.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image9.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image10.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image10.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image11.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image11.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -88,8 +94,15 @@ También podrá buscar cualquier libro desde la barra de búsqueda situada en la
 
 Desde el apartado de información, podrá comunicarse con la biblioteca ya sea vía correo o llamando.
 
+<table>
+  <tr>
+   <td><p style="text-align: right">
 
-![alt_text](images/image12.jpg "image_tooltip")
+<img src="images/image12.jpg" width="" alt="alt_text" height="500" title="image_tooltip" >
+</p>
+</td>
+ </tr>
+</table>
 
 
 Si pulsa el apartado de socio, podrá ver que se le abre una ventana de login desde la cual los usuarios socios de la biblioteca podrán iniciar sesión para consultar sus datos o reservar libros.
@@ -98,15 +111,15 @@ Si pulsa el apartado de socio, podrá ver que se le abre una ventana de login de
 <table>
   <tr>
    <td>
-<img src="images/image13.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image13.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image14.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image14.jpg"  height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image15.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image15.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -116,7 +129,15 @@ Si pulsa el apartado de socio, podrá ver que se le abre una ventana de login de
 Si los datos son correctos se deshabilitarán opciones para socios en el menú:
 
 
-![alt_text](images/image16.jpg "image_tooltip")
+<table>
+  <tr>
+   <td><p style="text-align: right">
+
+<img src="images/image16.jpg" width="" alt="alt_text" height="500" title="image_tooltip" >
+</p>
+</td>
+ </tr>
+</table>
 
 
 Veamos con más detalle cada apartado.
@@ -131,29 +152,29 @@ A continuación se muestra un ejemplo de cómo cambiar la contraseña de la que 
 <table>
   <tr>
    <td>
-<img src="images/image17.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image17.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image18.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image18.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image19.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image19.jpg" height="500"  width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
   <tr>
    <td>
-<img src="images/image20.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image20.jpg" height="500"width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image21.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image21.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image22.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image22.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -166,15 +187,15 @@ También podrá cambiar la imagen de perfil, el correo electrónico y las catego
 <table>
   <tr>
    <td>
-<img src="images/image23.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image23.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image24.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image24.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image25.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image25.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -187,15 +208,15 @@ Pasemos al apartado de reservas, en este apartado podrá ver los libros que tien
 <table>
   <tr>
    <td>
-<img src="images/image26.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image26.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image27.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image27.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image28.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image28.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -206,15 +227,15 @@ Pasemos al apartado de reservas, en este apartado podrá ver los libros que tien
 <table>
   <tr>
    <td>
-<img src="images/image29.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image29.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image30.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image30.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image31.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image31.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -227,15 +248,15 @@ El siguiente apartado es el de Préstamos, en este apartado podrá ver el histor
 <table>
   <tr>
    <td>
-<img src="images/image32.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image32.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image33.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image33.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image34.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image34.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -248,15 +269,15 @@ Por último, en el apartado de libros podrá ver que se ha desbloqueado un botó
 <table>
   <tr>
    <td>
-<img src="images/image35.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image35.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image36.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image36.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<img src="images/image37.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image37.jpg" height="500" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
